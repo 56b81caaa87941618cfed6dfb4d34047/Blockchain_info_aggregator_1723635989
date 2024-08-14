@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'Submit' button to be placed on the page?\", \"option1\": \"Below the form.\", \"option2\": \"At the top of the page.\"}, {\"question 2\": \"What action should occur after a user clicks the 'Submit' button?\", \"option1\": \"Display a confirmation message.\", \"option2\": \"Redirect to another page.\"}], \"input_token_count\": 273, \"output_token_count\": 91, \"time_taken\": \"0:00:03.782064\"}",
+        "message_id": "guest14082024114815",
+        "timestamp": "14082024114821",
+        "component_file_name": "simple_cta_component_1723635991",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "I will add a Submit button as requested.",
         "message_id": "guest14082024114815",
