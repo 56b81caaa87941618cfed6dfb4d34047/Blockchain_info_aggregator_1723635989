@@ -2,16 +2,19 @@
 */
 Vue.component("simple_footer_component_1723635991", {
     template: `
-    <div class="flex">
-        <div class="w-64 bg-gray-800 h-screen">
-            <nav class="mt-5">
-                <a href="#" class="block py-2 px-4 text-white hover:bg-gray-700">Home</a>
-                <a href="#" class="block py-2 px-4 text-white hover:bg-gray-700">About</a>
-                <a href="#" class="block py-2 px-4 text-white hover:bg-gray-700">Contact</a>
-            </nav>
-        </div>
+    <div class="flex flex-col h-screen">
+        <nav class="bg-gray-800 p-4">
+            <div class="container mx-auto flex justify-between items-center">
+                <a href="#" class="text-white text-2xl font-bold">BlockExplore</a>
+                <div>
+                    <a href="#" class="text-white mx-4 hover:text-gray-300">Home</a>
+                    <a href="#" class="text-white mx-4 hover:text-gray-300">About</a>
+                    <a href="#" class="text-white mx-4 hover:text-gray-300">Contact</a>
+                </div>
+            </div>
+        </nav>
         <div class="flex-1">
-            <footer id="footer-section" class="flex-1 bg-white dark:bg-gray-800">
+            <footer id="footer-section" class="bg-white dark:bg-gray-800">
                 <div id="footer-container" class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
                     <hr id="footer-divider" class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
                     <div id="footer-content" class="text-center">
@@ -35,6 +38,7 @@ Vue.component("simple_footer_component_1723635991", {
             </footer> 
         </div>
     </div>
+    `,
     `,
     data() {
         return {
