@@ -16,7 +16,10 @@ Vue.component("simple_footer_component_1723635991", {
                 <div class="flex">
                     <div id="footer-text" class="flex-1 block text-sm text-center text-gray-500 dark:text-gray-400">
                         Stay ahead of the curve with BlockExplore. Our platform provides real-time updates on the latest blockchain developments, projects, and trends. Explore the decentralized future today.
-                    </div>
+                        Stay ahead of the curve with BlockExplore. Our platform provides real-time updates on the latest blockchain developments, projects, and trends. Explore the decentralized future today.
+                        <button class="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                            Hello World
+                        </button>
                 </div>
             </div>
         </footer> 
