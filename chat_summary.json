@@ -36,5 +36,11 @@
         "content": "Adding a button that says hello world, will do.",
         "timestamp": "14082024114744",
         "message_id": "guest14082024114742"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'Hello World' button to be positioned within the app's interface?\", \"option1\": \"In the main navigation menu\", \"option2\": \"On the homepage, as a prominent call-to-action button\"}, {\"question 2\": \"What function should the 'Hello World' button perform when clicked?\", \"option1\": \"Display a pop-up message saying 'Welcome to the Blockchain Info App!'\", \"option2\": \"Navigate users to a specific page within the app that provides introductory information about blockchain\"}], \"input_token_count\": 296, \"output_token_count\": 121, \"time_taken\": \"0:00:04.376121\"}",
+        "timestamp": "14082024114748",
+        "message_id": "guest14082024114742"
     }
 ]
